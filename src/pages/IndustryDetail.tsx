@@ -3,6 +3,8 @@ import { Layout } from "@/components/layout/Layout";
 import { PageBanner } from "@/components/layout/PageBanner";
 import { SupademoEmbed } from "@/components/industry/SupademoEmbed";
 import { IndustryReviewsSection } from "@/components/industry/IndustryReviewsSection";
+import { ChallengesAndSolutions } from "@/components/industry/ChallengesAndSolutions";
+import { IntegrationsHub } from "@/components/industry/IntegrationsHub";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { getIndustryById, industriesData, isValidIndustryId } from "@/data/industries";
@@ -17,6 +19,19 @@ const IndustryDetail = () => {
   }
 
   const otherIndustries = industriesData.filter((item) => item.id !== industry.id);
+
+  const getReviewsSubtitle = () => {
+    if (industry.id === "real-estate") {
+      return "See what brokers, builders, and agencies across India say about AiLeadX.";
+    }
+    if (industry.id === "coaching") {
+      return "See what life coaches, consultants, and online creators across India say about AiLeadX.";
+    }
+    if (industry.id === "automobile") {
+      return "See what dealership owners, sales managers, and auto brokers across India say about AiLeadX.";
+    }
+    return undefined;
+  };
 
   return (
     <Layout>
@@ -148,46 +163,11 @@ const IndustryDetail = () => {
       </section>
 
       {/* Challenges & Solutions */}
-      <section className="py-20 bg-muted/50">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="bg-card p-8 rounded-2xl border border-border"
-            >
-              <h3 className="text-xl font-bold text-foreground mb-6">Common challenges</h3>
-              <ul className="space-y-4">
-                {industry.challenges.map((challenge) => (
-                  <li key={challenge} className="flex items-start gap-3">
-                    <span className="text-destructive mt-1 shrink-0">✗</span>
-                    <span className="text-muted-foreground">{challenge}</span>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="bg-card p-8 rounded-2xl border border-primary/25"
-            >
-              <h3 className="text-xl font-bold text-foreground mb-6">How AiLeadX helps</h3>
-              <ul className="space-y-4">
-                {industry.solutions.map((solution) => (
-                  <li key={solution} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-                    <span className="text-foreground">{solution}</span>
-                  </li>
-                ))}
-              </ul>
-            </motion.div>
-          </div>
-        </div>
-      </section>
+      <ChallengesAndSolutions
+        challenges={industry.challenges}
+        solutions={industry.solutions}
+        industryId={industry.id}
+      />
 
       {/* Why Choose AiLeadX */}
       {industry.whyChoose && industry.whyChoose.length > 0 ? (
@@ -203,7 +183,7 @@ const IndustryDetail = () => {
                 Why Choose AiLeadX
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Everything your real estate team needs to respond faster, sell smarter, and scale with confidence.
+                Everything your {industry.title.toLowerCase()} team needs to respond faster, sell smarter, and scale with confidence.
               </p>
             </motion.div>
 
@@ -229,6 +209,9 @@ const IndustryDetail = () => {
         </section>
       ) : null}
 
+      {/* Third-Party Integrations */}
+      <IntegrationsHub industryId={industry.id} />
+
       {/* Use cases */}
       <section className={`py-20 ${industry.whyChoose?.length ? "bg-muted/50" : "bg-background"}`}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
@@ -249,7 +232,11 @@ const IndustryDetail = () => {
 
       {/* Reviews */}
       {industry.reviews && industry.reviews.length > 0 ? (
-        <IndustryReviewsSection reviews={industry.reviews} />
+        <IndustryReviewsSection 
+          reviews={industry.reviews} 
+          industryTitle={industry.bannerAccent || industry.title}
+          industrySubtitle={getReviewsSubtitle()}
+        />
       ) : (
         <section className="py-16 bg-muted/50">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">

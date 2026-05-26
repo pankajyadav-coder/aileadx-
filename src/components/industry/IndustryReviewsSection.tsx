@@ -4,6 +4,8 @@ import type { IndustryReview } from "@/data/industries";
 
 interface IndustryReviewsSectionProps {
   reviews: IndustryReview[];
+  industryTitle: string;
+  industrySubtitle?: string;
 }
 
 const containerVariants = {
@@ -24,7 +26,7 @@ const cardVariants = {
   },
 };
 
-export function IndustryReviewsSection({ reviews }: IndustryReviewsSectionProps) {
+export function IndustryReviewsSection({ reviews, industryTitle, industrySubtitle }: IndustryReviewsSectionProps) {
   return (
     <section className="py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
@@ -39,10 +41,10 @@ export function IndustryReviewsSection({ reviews }: IndustryReviewsSectionProps)
             Customer Stories
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Trusted by <span className="gradient-text">Real Estate Teams</span>
+            Trusted by <span className="gradient-text">{industryTitle}</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            See what brokers, builders, and agencies across India say about AiLeadX.
+            {industrySubtitle || `See what ${industryTitle.toLowerCase()} professionals across India say about AiLeadX.`}
           </p>
         </motion.div>
 

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Check, ArrowRight } from "lucide-react";
 import { industriesData } from "@/data/industries";
+import { ChallengesAndSolutions } from "@/components/industry/ChallengesAndSolutions";
 
 const Industries = () => {
   return (
@@ -50,35 +51,12 @@ const Industries = () => {
                 ))}
               </div>
 
-              <div className="grid lg:grid-cols-2 gap-12">
-                <div className="bg-card p-8 rounded-2xl border border-border">
-                  <h3 className="text-xl font-bold text-foreground mb-6 flex items-center gap-2">
-                    <span className="text-2xl">😤</span> Common Challenges
-                  </h3>
-                  <ul className="space-y-4">
-                    {industry.challenges.map((challenge) => (
-                      <li key={challenge} className="flex items-start gap-3">
-                        <span className="text-destructive mt-1">✗</span>
-                        <span className="text-muted-foreground">{challenge}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="bg-card p-8 rounded-2xl border border-primary/30">
-                  <h3 className="text-xl font-bold text-foreground mb-6 flex items-center gap-2">
-                    <span className="text-2xl">🎯</span> How AiLeadX Helps
-                  </h3>
-                  <ul className="space-y-4">
-                    {industry.solutions.map((solution) => (
-                      <li key={solution} className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                        <span className="text-foreground">{solution}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              <ChallengesAndSolutions 
+                challenges={industry.challenges} 
+                solutions={industry.solutions} 
+                industryId={industry.id} 
+                isInline 
+              />
 
               <div className="text-center mt-12 flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="accent" size="lg" asChild>

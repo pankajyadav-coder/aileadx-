@@ -1,4 +1,4 @@
- import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
  import { Facebook, Linkedin, Instagram, Mail, Phone } from "lucide-react";
  import { BrandLogo } from "@/components/brand/BrandLogo";
  
@@ -7,13 +7,11 @@
      { name: "Features", href: "/features" },
      { name: "Pricing", href: "/pricing" },
      { name: "Industries", href: "/industries" },
-     { name: "Resources", href: "/resources" },
    ],
    company: [
      { name: "About Us", href: "/about" },
      { name: "Contact", href: "/contact" },
      { name: "Careers", href: "/careers" },
-     { name: "Blog", href: "/resources" },
    ],
    legal: [
      { name: "Privacy Policy", href: "/privacy" },

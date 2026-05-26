@@ -245,16 +245,23 @@ export const industriesData: IndustryData[] = [
     longDescription:
       "From webinar sign-ups to paid cohorts, AiLeadX keeps every prospect and client organized. Automate reminders, track program stages, and focus on coaching—not spreadsheets.",
     challenges: [
-      "Too much time spent on scheduling, invoices, and admin",
-      "Inconsistent follow-up with warm leads after webinars",
-      "Hard to track which prospect is in which program stage",
-      "Messages and notes spread across WhatsApp and email",
+      "Student inquiries get missed during admission season",
+      "Counselors cannot respond instantly to every student",
+      "Managing calls, WhatsApp chats, and inquiries becomes difficult",
+      "Follow-ups for admissions are handled manually",
+      "No proper tracking of student leads and conversions",
+      "Important student conversations get lost across platforms",
+      "Difficulty managing multiple counselors and branches",
     ],
     solutions: [
-      "Pipeline stages for discovery calls, trials, and enrollments",
-      "Automated WhatsApp and email sequences for nurturing",
-      "Client notes, tags, and program cohort management",
-      "Payment reminders and renewal follow-ups in one CRM",
+      "AI assistant talks with students 24×7 on WhatsApp",
+      "Instantly shares course details, fees, brochures, and schedules",
+      "Unified inbox for calls, chats, and student inquiries",
+      "Centralized lead management for admissions teams",
+      "Real-time tracking of student inquiries and conversions",
+      "Team dashboards for counselors and management",
+      "Faster responses improve admission conversion rates",
+      "Manage all student communication from one platform",
     ],
     features: [
       "Lead capture from landing pages, Instagram & webinars",
@@ -282,6 +289,112 @@ export const industriesData: IndustryData[] = [
       role: "Business Coach",
       company: "Ascend Life Coaching",
     },
+    whyChoose: [
+      {
+        emoji: "🎓",
+        title: "Built for Admission Teams",
+        description: "Designed for coaching institutes, academies, and educational businesses.",
+      },
+      {
+        emoji: "🤖",
+        title: "24×7 AI Student Support",
+        description: "AI handles inquiries anytime and instantly shares course information.",
+      },
+      {
+        emoji: "📱",
+        title: "Complete Communication Management",
+        description: "Manage WhatsApp chats, calls, and student conversations in one place.",
+      },
+      {
+        emoji: "⚡",
+        title: "Faster Admission Conversion",
+        description: "Quick responses help convert more student inquiries into admissions.",
+      },
+      {
+        emoji: "👥",
+        title: "Better Team Coordination",
+        description: "Track counselor performance and manage inquiries efficiently.",
+      },
+      {
+        emoji: "📊",
+        title: "Smart Lead Tracking",
+        description: "Monitor inquiry status, admissions progress, and student engagement.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Ananya Gupta",
+        role: "Business Coach",
+        company: "Ascend Life Coaching",
+        initials: "AG",
+        quote:
+          "Session bookings and nurture sequences run on autopilot. I save hours every week and spend more time with clients.",
+        rating: 5,
+      },
+      {
+        name: "Vikram Dev",
+        role: "Executive Coach",
+        company: "Dev Coaching Global",
+        initials: "VD",
+        quote:
+          "My lead conversion rate went up 60% since starting discovery call workflows. Client notes are organized in one place now.",
+        rating: 5,
+      },
+      {
+        name: "Meera Nair",
+        role: "Life & Career Coach",
+        company: "SoulPath Academy",
+        initials: "MN",
+        quote:
+          "Automated payment and session reminders saved my relationship with clients. No more awkward follow-up messages.",
+        rating: 5,
+      },
+      {
+        name: "Dr. Rohan Sen",
+        role: "Leadership Consultant",
+        company: "Sen Consulting Group",
+        initials: "RS",
+        quote:
+          "I manage 3 premium cohorts in one pipeline. The WhatsApp reminders ensure nearly 98% attendance at our webinars.",
+        rating: 5,
+      },
+      {
+        name: "Karan Talwar",
+        role: "Fitness Coach",
+        company: "FitLife Program",
+        initials: "KT",
+        quote:
+          "Instagram lead capture is instant. My assistant assigns leads, and they are qualified by AI within seconds.",
+        rating: 5,
+      },
+      {
+        name: "Divya Reddy",
+        role: "Career Transition Coach",
+        company: "CareerSpark",
+        initials: "DR",
+        quote:
+          "Before AiLeadX, I used sticky notes and sheets. Now every client's journey is mapped in a clean, professional dashboard.",
+        rating: 5,
+      },
+      {
+        name: "Sameer Shah",
+        role: "Business Mentor",
+        company: "Shah Consultancy",
+        initials: "SS",
+        quote:
+          "The automated nurture sequence helps warm up leads before they get on the phone with me. Close rate is twice as high!",
+        rating: 5,
+      },
+      {
+        name: "Preeti Roy",
+        role: "Relationship Coach",
+        company: "Harmony Coach",
+        initials: "PR",
+        quote:
+          "AiLeadX is super intuitive. I had my entire discovery pipeline built and ready in a single afternoon. Pure gold!",
+        rating: 5,
+      },
+    ],
     supademoEmbedUrl: "https://app.supademo.com/embed/YOUR_COACHING_DEMO_ID",
     supademoTitle: "Watch AiLeadX for Coaching",
     accentClass: "text-purple",
@@ -293,21 +406,29 @@ export const industriesData: IndustryData[] = [
     icon: Car,
     title: "Automobile Sales",
     subtitle: "For Dealerships, Used Car Lots & Auto Brokers",
+    bannerAccent: "Auto Dealerships",
     description:
       "Respond faster to inquiries, book more test drives, and track every showroom conversation with CRM built for auto sales.",
     longDescription:
       "AiLeadX connects calls, WhatsApp, and walk-in leads to one pipeline. Log test drives, follow up on finance queries, and grow both new and pre-owned sales.",
     challenges: [
-      "Hot leads lost to slow callbacks after ads or calls",
-      "Vehicle inquiries not matched to stock or sales executive",
-      "Service and upsell opportunities missed after sale",
-      "Managers lack visibility into team follow-ups",
+      "Customer inquiries get delayed during busy hours",
+      "Sales teams struggle to manage multiple leads efficiently",
+      "Vehicle details are shared manually again and again",
+      "Test drive and inquiry tracking becomes difficult",
+      "Leads from ads, calls, and WhatsApp are scattered",
+      "Poor follow-up management causes missed sales opportunities",
+      "No centralized dashboard for sales teams and managers",
     ],
     solutions: [
-      "Instant lead assignment from calls and WhatsApp",
-      "Model-wise pipelines from inquiry to delivery",
-      "Test drive scheduling with automated reminders",
-      "Call logs and notes on every customer interaction",
+      "AI assistant responds to customers 24×7",
+      "Instantly shares vehicle details, pricing, and images",
+      "Unified inbox for calls, WhatsApp chats, and inquiries",
+      "Centralized lead management from all platforms",
+      "Real-time tracking of customer inquiries and sales progress",
+      "Team dashboards for sales executives and managers",
+      "Faster responses improve customer engagement and sales",
+      "Manage all customer communication from one platform",
     ],
     features: [
       "Incoming/outgoing call detection and auto-logging",
@@ -335,6 +456,112 @@ export const industriesData: IndustryData[] = [
       role: "Sales Manager",
       company: "DriveMax Motors",
     },
+    whyChoose: [
+      {
+        emoji: "🚗",
+        title: "Built for Automobile Sales Teams",
+        description: "Perfect for dealerships, showrooms, and automobile businesses.",
+      },
+      {
+        emoji: "🤖",
+        title: "AI-Powered Customer Interaction",
+        description: "AI talks with customers and instantly shares vehicle information.",
+      },
+      {
+        emoji: "⚡",
+        title: "Faster Lead Response",
+        description: "Engage customers quickly before competitors do.",
+      },
+      {
+        emoji: "📱",
+        title: "Centralized Communication",
+        description: "Manage all calls, chats, and inquiries in one CRM dashboard.",
+      },
+      {
+        emoji: "👥",
+        title: "Team & Sales Management",
+        description: "Track sales activities, customer interactions, and team performance.",
+      },
+      {
+        emoji: "📊",
+        title: "Better Sales Visibility",
+        description: "Monitor inquiries, conversions, and sales progress in real time.",
+      },
+    ],
+    reviews: [
+      {
+        name: "Arjun Mehta",
+        role: "Sales Manager",
+        company: "DriveMax Motors",
+        initials: "AM",
+        quote:
+          "Test drive requests from calls and WhatsApp land in one CRM. Our showroom team responds within minutes.",
+        rating: 5,
+      },
+      {
+        name: "Suresh Gopinath",
+        role: "General Manager",
+        company: "Royal Hyundai",
+        initials: "SG",
+        quote:
+          "Showroom walk-in capture has improved by 90%. We can track exactly which executive handled which inquiry.",
+        rating: 5,
+      },
+      {
+        name: "Neha Kapoor",
+        role: "Used Car Head",
+        company: "TrueValue Cars Gurgaon",
+        initials: "NK",
+        quote:
+          "We match pre-owned stock with buyer requests instantly. Out of stock cars don't sit around anymore.",
+        rating: 5,
+      },
+      {
+        name: "Harpreet Singh",
+        role: "Director",
+        company: "Frontier Tata Motors",
+        initials: "HS",
+        quote:
+          "The post-sale service workflow has improved our customer retention. Insurance renewals are tracked effortlessly.",
+        rating: 5,
+      },
+      {
+        name: "Ravi Kulkarni",
+        role: "Dealer Principal",
+        company: "Kulkarni Mahindra",
+        initials: "RK",
+        quote:
+          "Executive leaderboards created healthy competition in my sales team. Our dealership sales went up 25% this quarter.",
+        rating: 5,
+      },
+      {
+        name: "Pooja Malhotra",
+        role: "CRM Lead",
+        company: "Signature BMW",
+        initials: "PM",
+        quote:
+          "Vip customers expect instant communication. WhatsApp brochure sharing lets us send customized brochures in under 10 seconds.",
+        rating: 5,
+      },
+      {
+        name: "Deepak Verma",
+        role: "Sales Executive",
+        company: "Elite Used Cars",
+        initials: "DV",
+        quote:
+          "Auto-logging calls saves me an hour of manual reports every evening. I can focus on closing deals.",
+        rating: 5,
+      },
+      {
+        name: "Rajesh Patel",
+        role: "Owner",
+        company: "Patel Automobile Agency",
+        initials: "RP",
+        quote:
+          "Managing bookings across three different branches was impossible. AiLeadX has unified our database perfectly.",
+        rating: 5,
+      },
+    ],
     supademoEmbedUrl: "https://app.supademo.com/embed/YOUR_AUTOMOBILE_DEMO_ID",
     supademoTitle: "Watch AiLeadX for Automobile",
     accentClass: "text-primary",

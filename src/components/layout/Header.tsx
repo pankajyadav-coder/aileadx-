@@ -11,7 +11,7 @@
    { name: "Industries", href: "/industries" },
    { name: "Pricing", href: "/pricing" },
    { name: "About", href: "/about" },
-   { name: "Resources", href: "/resources" },
+   { name: "Careers", href: "/careers" },
    { name: "Contact", href: "/contact" },
  ];
  
