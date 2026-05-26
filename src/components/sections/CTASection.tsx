@@ -15,7 +15,7 @@ export function CTASection() {
       band
       title="Ready to Grow Your Business"
       accent="3x Faster?"
-      description="Join thousands of successful businesses using RealCRM to automate their workflows, close more deals, and scale their revenue."
+      description="Join thousands of successful businesses using AiLeadX to automate their workflows, close more deals, and scale their revenue."
     >
       <div className="flex flex-wrap justify-center gap-6 mb-10">
         {benefits.map((benefit) => (

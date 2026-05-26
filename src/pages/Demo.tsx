@@ -62,9 +62,9 @@
        <PageBanner
          compact
          label="Book a Demo"
-         title="See RealCRM"
+         title="See AiLeadX"
          accent="in Action"
-         description="Get a personalized demo from our product experts and discover how RealCRM can transform your business."
+         description="Get a personalized demo from our product experts and discover how AiLeadX can transform your business."
        />
  
        {/* Demo Form Section */}
@@ -209,7 +209,7 @@
                    What to Expect
                  </h2>
                  <p className="text-muted-foreground mb-8">
-                   Our product experts will walk you through RealCRM with a personalized demo tailored to your specific industry and needs.
+                   Our product experts will walk you through AiLeadX with a personalized demo tailored to your specific industry and needs.
                  </p>
  
                  <ul className="space-y-4 mb-12">
@@ -244,17 +244,12 @@
                {/* Testimonial */}
                <div className="bg-card p-6 rounded-xl border border-border mt-8">
                  <p className="text-muted-foreground italic mb-4">
-                   "The demo was incredibly helpful. They showed us exactly how RealCRM would work for our real estate business. We signed up the same day!"
+                   "The demo was incredibly helpful. They showed us exactly how AiLeadX would work for our real estate business. We signed up the same day!"
                  </p>
-                 <div className="flex items-center gap-3">
-                   <div className="w-10 h-10 rounded-full gradient-accent flex items-center justify-center text-accent-foreground font-bold">
-                     JM
-                   </div>
-                   <div>
-                     <p className="font-semibold text-foreground">Jennifer Martinez</p>
-                     <p className="text-sm text-muted-foreground">Broker, Sunshine Realty</p>
-                   </div>
-                 </div>
+                <div>
+                  <p className="font-semibold text-foreground">Kuldeep Singh</p>
+                  <p className="text-sm text-muted-foreground">Broker, Sunshine Realty</p>
+                </div>
                </div>
              </motion.div>
            </div>

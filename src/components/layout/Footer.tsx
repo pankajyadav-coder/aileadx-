@@ -21,9 +21,9 @@
      { name: "Cookie Policy", href: "/cookies" },
    ],
    industries: [
-     { name: "Real Estate", href: "/industries#real-estate" },
-     { name: "Coaching", href: "/industries#coaching" },
-     { name: "Automobile", href: "/industries#automobile" },
+    { name: "Real Estate", href: "/industries/real-estate" },
+    { name: "Coaching", href: "/industries/coaching" },
+    { name: "Automobile", href: "/industries/automobile" },
    ],
  };
  

@@ -16,16 +16,16 @@
      title: "Getting Started",
      faqs: [
        {
-         question: "How do I get started with RealCRM?",
+         question: "How do I get started with AiLeadX?",
          answer: "Getting started is easy! Simply sign up for a free 14-day trial, no credit card required. Our onboarding wizard will guide you through setting up your account, importing contacts, and creating your first pipeline in under 10 minutes.",
        },
        {
          question: "Can I import my existing contacts?",
-         answer: "Yes! RealCRM supports importing contacts from CSV files, Excel spreadsheets, and direct integrations with popular tools like Google Contacts, Outlook, and other CRM platforms. Our import wizard handles duplicates automatically.",
+         answer: "Yes! AiLeadX supports importing contacts from CSV files, Excel spreadsheets, and direct integrations with popular tools like Google Contacts, Outlook, and other CRM platforms. Our import wizard handles duplicates automatically.",
        },
        {
          question: "Is there a learning curve?",
-         answer: "We've designed RealCRM to be intuitive from day one. Most users are up and running within an hour. We also provide free onboarding calls, video tutorials, and a comprehensive help center to ensure your success.",
+         answer: "We've designed AiLeadX to be intuitive from day one. Most users are up and running within an hour. We also provide free onboarding calls, video tutorials, and a comprehensive help center to ensure your success.",
        },
      ],
    },
@@ -33,8 +33,8 @@
      title: "Pricing & Billing",
      faqs: [
        {
-         question: "How much does RealCRM cost?",
-         answer: "RealCRM offers three plans: Starter at $29/month, Professional at $79/month, and Enterprise at $199/month. All plans include a 14-day free trial. Annual billing saves you 20%.",
+         question: "How much does AiLeadX cost?",
+         answer: "AiLeadX offers three plans: Starter at $29/month, Professional at $79/month, and Enterprise at $199/month. All plans include a 14-day free trial. Annual billing saves you 20%.",
        },
        {
          question: "Can I change plans later?",
@@ -54,20 +54,20 @@
      title: "Features & Integrations",
      faqs: [
        {
-         question: "What integrations does RealCRM support?",
-         answer: "RealCRM integrates with 50+ popular tools including WhatsApp Business, Gmail, Outlook, Google Calendar, Zoom, Stripe, Zapier, and many more. We're constantly adding new integrations based on customer requests.",
+         question: "What integrations does AiLeadX support?",
+         answer: "AiLeadX integrates with 50+ popular tools including WhatsApp Business, Gmail, Outlook, Google Calendar, Zoom, Stripe, Zapier, and many more. We're constantly adding new integrations based on customer requests.",
        },
        {
-         question: "Can I use WhatsApp with RealCRM?",
-         answer: "Yes! Our WhatsApp Business API integration lets you send and receive WhatsApp messages directly from RealCRM. You can also create automated WhatsApp sequences for lead nurturing.",
+         question: "Can I use WhatsApp with AiLeadX?",
+         answer: "Yes! Our WhatsApp Business API integration lets you send and receive WhatsApp messages directly from AiLeadX. You can also create automated WhatsApp sequences for lead nurturing.",
        },
        {
          question: "Is there a mobile app?",
-         answer: "Yes, RealCRM has native iOS and Android apps that give you full access to your CRM on the go. View contacts, update deals, log calls, and receive notifications from anywhere.",
+         answer: "Yes, AiLeadX has native iOS and Android apps that give you full access to your CRM on the go. View contacts, update deals, log calls, and receive notifications from anywhere.",
        },
        {
          question: "Can I customize fields and pipelines?",
-         answer: "Absolutely! RealCRM is fully customizable. Create custom fields, pipeline stages, tags, and automation rules to match your unique business processes.",
+         answer: "Absolutely! AiLeadX is fully customizable. Create custom fields, pipeline stages, tags, and automation rules to match your unique business processes.",
        },
      ],
    },
@@ -76,7 +76,7 @@
      faqs: [
        {
          question: "Is my data secure?",
-         answer: "Security is our top priority. RealCRM uses bank-level encryption (256-bit SSL), regular security audits, and SOC 2 compliance. Your data is backed up daily and stored in secure, redundant data centers.",
+         answer: "Security is our top priority. AiLeadX uses bank-level encryption (256-bit SSL), regular security audits, and SOC 2 compliance. Your data is backed up daily and stored in secure, redundant data centers.",
        },
        {
          question: "Do you sell my data?",
@@ -101,7 +101,7 @@
        },
        {
          question: "How do I contact support?",
-         answer: "You can reach our support team via email at support@growcrm.com, through the in-app chat, or by phone during business hours. Enterprise customers have access to their dedicated support line.",
+         answer: "You can reach our support team via email at support@aileadx.in, through the in-app chat, or by phone during business hours. Enterprise customers have access to their dedicated support line.",
        },
      ],
    },
@@ -114,7 +114,7 @@
          label="FAQ"
          title="Frequently Asked"
          accent="Questions?"
-         description="Find answers to common questions about RealCRM. Can't find what you're looking for? Contact our support team."
+         description="Find answers to common questions about AiLeadX. Can't find what you're looking for? Contact our support team."
        />
  
        {/* FAQ Content */}

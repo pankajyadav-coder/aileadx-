@@ -96,7 +96,7 @@
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
                  <img
                    src={heroDashboard}
-                   alt="RealCRM Dashboard showing sales pipeline and analytics"
+                   alt="AiLeadX Dashboard showing sales pipeline and analytics"
                    className="w-full h-auto"
                  />
                </div>

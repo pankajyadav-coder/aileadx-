@@ -140,7 +140,7 @@
                And So Much More
              </h2>
              <p className="text-lg text-muted-foreground">
-               Discover all the features that make RealCRM the #1 choice for growing businesses.
+               Discover all the features that make AiLeadX the #1 choice for growing businesses.
              </p>
            </motion.div>
  
@@ -166,7 +166,7 @@
          band
          title="Ready to Experience"
          accent="These Features?"
-         description="Start your free trial today and see why thousands of businesses choose RealCRM."
+         description="Start your free trial today and see why thousands of businesses choose AiLeadX."
        >
          <div className="flex flex-col sm:flex-row gap-4 justify-center">
            <Button variant="hero" size="xl" asChild>

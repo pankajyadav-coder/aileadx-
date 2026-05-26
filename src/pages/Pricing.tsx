@@ -65,7 +65,7 @@
  
  const faqs = [
    {
-     question: "Can I try RealCRM before committing?",
+     question: "Can I try AiLeadX before committing?",
      answer: "Absolutely! We offer a 14-day free trial with full access to all features. No credit card required.",
    },
    {

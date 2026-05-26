@@ -52,7 +52,7 @@ const features = [
   {
     icon: Clock,
     title: "24/7 Support",
-    description: "Get dedicated support and training to help your team succeed with RealCRM.",
+    description: "Get dedicated support and training to help your team succeed with AiLeadX.",
     color: "text-[hsl(var(--stat-red))]",
     bg: "bg-[hsl(var(--stat-red))]/10",
     hoverBg: "group-hover:bg-[hsl(var(--stat-red))]",

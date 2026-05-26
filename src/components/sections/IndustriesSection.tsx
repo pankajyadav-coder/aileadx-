@@ -74,7 +74,7 @@ export function IndustriesSection() {
             Built for <span className="gradient-text">Your Industry</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            RealCRM is tailored to meet the unique needs of real estate professionals, coaches, and automobile
+            AiLeadX is tailored to meet the unique needs of real estate professionals, coaches, and automobile
             businesses.
           </p>
         </motion.div>
@@ -130,8 +130,8 @@ export function IndustriesSection() {
                   className={`w-full transition-all ${industry.btnHoverClass}`}
                   asChild
                 >
-                  <Link to={`/industries#${industry.id}`}>
-                    Learn More
+                  <Link to={`/industries/${industry.id}`}>
+                    See AiLeadX for {industry.title}
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </Button>

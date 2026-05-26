@@ -32,7 +32,7 @@
    },
    {
      title: "How to Set Up Your First CRM Pipeline",
-     excerpt: "A step-by-step guide for new RealCRM users to create an effective sales pipeline.",
+     excerpt: "A step-by-step guide for new AiLeadX users to create an effective sales pipeline.",
      category: "Getting Started",
      date: "Jan 25, 2026",
      readTime: "6 min read",
@@ -98,7 +98,7 @@
          label="Resources"
          title="Learn, Grow, and"
          accent="Succeed"
-         description="Expert insights, tutorials, and resources to help you get the most out of RealCRM."
+         description="Expert insights, tutorials, and resources to help you get the most out of AiLeadX."
        />
  
        {/* Resource Types */}

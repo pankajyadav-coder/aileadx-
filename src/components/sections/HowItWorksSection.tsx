@@ -6,7 +6,7 @@
      number: "01",
      icon: Plug,
      title: "Connect",
-     description: "Import your leads from any source—website forms, social media, phone calls, or existing databases. RealCRM seamlessly integrates with 50+ tools.",
+     description: "Import your leads from any source—website forms, social media, phone calls, or existing databases. AiLeadX seamlessly integrates with 50+ tools.",
    },
    {
      number: "02",
@@ -41,7 +41,7 @@
              <span className="gradient-text">Success</span>
            </h2>
            <p className="text-lg text-muted-foreground">
-             Getting started with RealCRM is easy. Our streamlined onboarding process 
+             Getting started with AiLeadX is easy. Our streamlined onboarding process 
              gets you up and running in minutes, not days.
            </p>
          </motion.div>
