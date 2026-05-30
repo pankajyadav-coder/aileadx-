@@ -141,7 +141,7 @@ const pricingPlans: Plan[] = [
 const faqs = [
   {
     question: "Can I try AiLeadX before committing?",
-    answer: "Absolutely! We offer a 14-day free trial with full access to all features on all tier levels. No credit card is required to begin.",
+    answer: "Absolutely! We offer a 7-day free trial with full access to all features on all tier levels. No credit card is required to begin.",
   },
   {
     question: "Can I change my billing cycle or plan later?",
@@ -185,8 +185,8 @@ const Pricing = () => {
               <button
                 onClick={() => setBillingCycle("monthly")}
                 className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 ${billingCycle === "monthly"
-                    ? "bg-gradient-to-r from-primary to-purple text-primary-foreground shadow-md scale-100"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted-foreground/5"
+                  ? "bg-gradient-to-r from-primary to-purple text-primary-foreground shadow-md scale-100"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted-foreground/5"
                   }`}
               >
                 Monthly
@@ -194,8 +194,8 @@ const Pricing = () => {
               <button
                 onClick={() => setBillingCycle("quarterly")}
                 className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 ${billingCycle === "quarterly"
-                    ? "bg-gradient-to-r from-primary to-purple text-primary-foreground shadow-md scale-100"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted-foreground/5"
+                  ? "bg-gradient-to-r from-primary to-purple text-primary-foreground shadow-md scale-100"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted-foreground/5"
                   }`}
               >
                 Quarterly
@@ -203,8 +203,8 @@ const Pricing = () => {
               <button
                 onClick={() => setBillingCycle("yearly")}
                 className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 ${billingCycle === "yearly"
-                    ? "bg-gradient-to-r from-primary to-purple text-primary-foreground shadow-md scale-100"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted-foreground/5"
+                  ? "bg-gradient-to-r from-primary to-purple text-primary-foreground shadow-md scale-100"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted-foreground/5"
                   }`}
               >
                 Yearly
@@ -226,8 +226,8 @@ const Pricing = () => {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.08, type: "spring", stiffness: 100, damping: 15 }}
                   className={`relative bg-card rounded-3xl border flex flex-col p-6 sm:p-7 transition-all duration-300 hover:shadow-xl hover:border-primary/20 ${plan.popular
-                      ? "border-primary shadow-xl shadow-primary/10 " + plan.glowClass
-                      : "border-border " + plan.glowClass
+                    ? "border-primary shadow-xl shadow-primary/10 " + plan.glowClass
+                    : "border-border " + plan.glowClass
                     }`}
                 >
                   {/* Badge */}
@@ -271,7 +271,7 @@ const Pricing = () => {
                           {plan.users}
                         </span>
                       </div>
-                      
+
                       <div className="flex items-center justify-between text-xs px-3 py-2 rounded-xl bg-muted/80 border border-border/40">
                         <span className="font-semibold text-muted-foreground flex items-center gap-1">
                           ➕ Extra User Fee
