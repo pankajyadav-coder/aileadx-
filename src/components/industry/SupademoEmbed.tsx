@@ -9,7 +9,18 @@ interface SupademoEmbedProps {
 const PLACEHOLDER_PATTERN = /YOUR_.*_DEMO_ID/;
 
 export function SupademoEmbed({ title, embedUrl, description }: SupademoEmbedProps) {
-  const isPlaceholder = PLACEHOLDER_PATTERN.test(embedUrl) || !embedUrl.includes("supademo.com/embed/");
+  // Convert sharing URLs containing '/demo/' to embeddable '/embed/' URLs
+  let processedUrl = embedUrl;
+  if (processedUrl.includes("supademo.com/demo/")) {
+    processedUrl = processedUrl.replace("supademo.com/demo/", "supademo.com/embed/");
+  }
+
+  // Strip query parameters to ensure the iframe gets the clean embed endpoint
+  if (processedUrl.includes("supademo.com/embed/") && processedUrl.includes("?")) {
+    processedUrl = processedUrl.split("?")[0];
+  }
+
+  const isPlaceholder = PLACEHOLDER_PATTERN.test(processedUrl) || !processedUrl.includes("supademo.com/embed/");
 
   if (isPlaceholder) {
     return (
@@ -24,7 +35,7 @@ export function SupademoEmbed({ title, embedUrl, description }: SupademoEmbedPro
               "Add your Supademo embed link in src/data/industries.ts (Share → Embed in Supademo)."}
           </p>
           <p className="text-xs text-muted-foreground font-mono bg-card px-3 py-2 rounded-lg border border-border">
-            supademoEmbedUrl
+            {embedUrl}
           </p>
         </div>
       </div>
@@ -41,7 +52,7 @@ export function SupademoEmbed({ title, embedUrl, description }: SupademoEmbedPro
       </div>
       <div className="relative w-full aspect-[16/10] min-h-[480px] sm:min-h-[560px] lg:min-h-[640px] bg-muted/20">
         <iframe
-          src={embedUrl}
+          src={processedUrl}
           title={title}
           allow="clipboard-write"
           allowFullScreen

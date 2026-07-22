@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { Check, X, Sparkles, AlertTriangle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -45,7 +45,7 @@ const themeMap: Record<string, ThemeConfig> = {
   },
 };
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -53,7 +53,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 15 },
   visible: {
     opacity: 1,

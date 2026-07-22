@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 import { PageBanner } from "@/components/layout/PageBanner";
 
 const benefits = [
-  "14-day free trial, no credit card required",
+  "7-day free trial, no credit card required",
   "Setup in under 5 minutes",
   "Cancel anytime, no questions asked",
 ];
