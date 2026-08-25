@@ -64,7 +64,7 @@ export function Header() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-3">
             <Button variant="ghost" asChild>
-              <a href="https://app.yourcrm.com/login" target="_blank" rel="noopener noreferrer">
+              <a href="https://crm.aileadx.in/" target="_blank" rel="noopener noreferrer">
                 Login
               </a>
             </Button>
